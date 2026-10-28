@@ -1,0 +1,33 @@
+Pygodide build log
+Started: 2026-10-25T19:18:57.209194+00:00
+Pygodide version: 0.1.0
+Python: 3.13.6 (tags/v3.13.6:4e66535, Aug  6 2025, 14:36:00) [MSC v.1944 64 bit (AMD64)]
+Platform: Windows-11-10.0.26300-SP0
+Working directory: C:\Users\dane4\OneDrive\Рабочий стол\SkywingFon
+Source directory: C:\Users\dane4\OneDrive\Рабочий стол\SkywingFon
+Output directory: C:\Users\dane4\OneDrive\Рабочий стол\SkywingFon\build
+Serve after build: False
+CLI app override: (none)
+CLI dependencies: pygame-ce
+CLI canvas-width: (none)
+CLI canvas-height: (none)
+Auto-async: True
+
+Build output:
+Building C:\Users\dane4\OneDrive\Рабочий стол\SkywingFon
+App entrypoint: main:main (default)
+Canvas aspect: not found (using default 800x600; could not resolve set_mode size)
+Canvas: fixed 800x600 (as-is)
+Package files: 212 (auto-discovery)
+Dependency sources:
+  - CLI --dep: pygame-ce
+Resolved dependencies: pygame-ce
+Install strategy:
+  - pyodide.loadPackage: pygame-ce
+  - micropip.install: (none)
+Auto async: already async (main:main)
+App archive: app.zip (212 files)
+Favicon: bundled default
+
+Result: success
+Finished: 2026-10-25T19:18:59.197155+00:00
